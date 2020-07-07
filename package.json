@@ -1,9 +1,15 @@
 {
+  "name": "recraft-chat-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": "https://github.com/recraftrelic/recraft-chat-server.git",
+  "author": "MamtaAditiS <mamtasingla007@gmail.com>",
+  "license": "MIT",
+  
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "http": "^0.0.1-security",
-    "mongoose": "^5.9.21",
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
   }
