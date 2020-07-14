@@ -1,4 +1,4 @@
-[<p align="center"><img width="150" src="./app-logo.png"></p>](https://github.com/recraftrelic/react-native-chat-app-boilerplate/)
+[<p align="center"><img width="150" src="./icon.png"></p>](https://github.com/recraftrelic/recraft-chat-server/)
 
 <h1 align="center">Recraft Chat Server</h1>
 
