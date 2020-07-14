@@ -1,4 +1,4 @@
-[<p align="center"><img width="150" src="./app-logo.png"></p>](https://github.com/recraftrelic/react-native-chat-app-boilerplate/)
+[<p align="center"><img width="150" src="./icon.png"></p>](https://github.com/recraftrelic/recraft-chat-server/)
 
 <h1 align="center">Recraft Chat Server</h1>
 
@@ -40,7 +40,7 @@ It works on every platform, browser or device, focusing equally on reliability a
 Contributors
 =======
 * [manojsinghnegiwd](https://github.com/manojsinghnegiwd) - Manoj Singh Negi
-* [yashkapoor8710](https://github.com/MamtaAditiS) - Mamta Singla
+* [MamtaAditiS](https://github.com/MamtaAditiS) - Mamta Singla
 
 Sponsors
 =======
