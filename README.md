@@ -40,7 +40,7 @@ It works on every platform, browser or device, focusing equally on reliability a
 Contributors
 =======
 * [manojsinghnegiwd](https://github.com/manojsinghnegiwd) - Manoj Singh Negi
-* [yashkapoor8710](https://github.com/MamtaAditiS) - Mamta Singla
+* [MamtaAditiS](https://github.com/MamtaAditiS) - Mamta Singla
 
 Sponsors
 =======
