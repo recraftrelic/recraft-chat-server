@@ -4,28 +4,25 @@
 
 <p align="center">This chat server app is a boilerplate for any react developer who wants to build a chat app. The goal of this boilerplate is to provide a fully functional chat app which can be reused with very little to no modification.</p>
 
-Documentation
+Documentation for installing dependencies and run app 
 =======
 
-* [Installation]
+Use the Below Commands to Clone the project and enter inside the Directory After that Install the Dependencies.
 
-For installing this application first clone this 
-
+```
 git clone https://github.com/recraftrelic/recraft-chat-server.git
 
-cd recaft-chat-server 
+cd recraft-chat-server 
 
 you have to run this in two terminals.
 
 then run `cd client` and run `yarn install`
 
-for platform run `cd server` and run `yarn install`
-
- 
-* [Run the Project in Development Mode]
+For platform run `cd server` and run `yarn install`
 
 For running the code we may have to run `yarn start` for the user interface and  `node app.js` for platform.
 
+```
 
 Packages & Libraries used
 =======
