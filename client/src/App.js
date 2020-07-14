@@ -32,7 +32,7 @@ function App() {
     })
 
     socket.on('chat-message', data => {
-      console.log( data, "data")
+      //console.log( data, "data")
       appendMessage(`Other: ${data.message}`)
     }) 
 
