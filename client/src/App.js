@@ -27,20 +27,21 @@ function App() {
     const messageForm = document.getElementById('send-container')
     const messageInput = document.getElementById('message-input') 
 
-    socket.on('user-disconnected', () => {
-      appendMessage(`${username} disconnected from chat.`)
-    })
+    // socket.on('user-disconnected', () => {
+    //   appendMessage(`${username} disconnected from chat.`)
+    // })
 
     socket.on('chat-message', data => {
-      //console.log( data, "data")
-      appendMessage(`Other: ${data.message}`)
+      console.log( data, "data")
+      appendMessage(`${data.name}: ${data.message}`)
     }) 
 
     messageForm.addEventListener('submit', e => {
       e.preventDefault();
       const message = messageInput.value
       appendMessage(`You: ${message}`)
-      socket.emit('send-chat-message', message)
+      console.log( username, message, "about to emit")
+      socket.emit('send-chat-message', { 'message': message , 'name' : username})
       messageInput.value = ''
     })
   }, [])
