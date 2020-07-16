@@ -41,7 +41,7 @@ function App() {
       const message = messageInput.value
       appendMessage(`You: ${message}`)
       console.log( username, message, "about to emit")
-      socket.emit('send-chat-message', { 'message': message , 'name' : username})
+      socket.emit('send-chat-message', { 'message': message , 'name' : 'Mamta'})
       messageInput.value = ''
     })
   }, [])
